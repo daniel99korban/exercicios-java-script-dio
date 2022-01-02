@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+  }
+  .bloco{
+    width: 50px;
+    height: 50px;
+    background-color: cyan;
+    border: solid 1px rgb(1, 114, 206);
+  }
+  
+  .container{
+    display: flex;
+  }
+
+  .circulo{
+      text-align: center;
+      margin-top: 1%;
+      margin-bottom: 1%;
+      margin-left: 5%;
+      border-radius: 50%;   
+  }
+
+  .btn{
+      margin-left: 3%;
+      padding: 3px;
+      border-radius: 5px;
+      border-style: none;
+      color: white;
+      background-color: rgb(63, 63, 161);
+  }

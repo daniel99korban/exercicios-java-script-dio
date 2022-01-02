@@ -1,0 +1,37 @@
+*{
+    padding: 4px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(11, 112, 119);
+}
+
+.contador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    text-shadow: 3px 2px 5px rgb(12, 11, 12)
+}
+
+.counter{
+    box-shadow: 2px 1px 8px rgb(0, 0, 0);
+    width: 200px;
+    background-color: rgb(23, 238, 202);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter:hover{
+    box-shadow: 5px 5px 10px rgb(65, 65, 65);
+}
+
+#currentNumber{
+    text-shadow: 1px 1px 3px black;
+    color: white;
+}

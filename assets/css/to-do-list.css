@@ -1,0 +1,93 @@
+
+/*variaveis de raiz*/
+:root{
+    --cor-bg-divs: blueviolet;
+    --cor-border: rgb(35, 194, 194);
+    --cor-hover-border: rgb(238, 255, 0);
+}
+
+*{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.add-mais-icon{
+    position: absolute;
+    visibility: hidden;
+    top: 5px;
+    margin-left: 0px;
+}
+
+.add{
+    top: -1px;
+    margin-left: 9px;
+    position: absolute;
+}
+
+body{
+    color: black;
+}
+
+input{
+    width: 500px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: var(--cor-border);
+}
+
+input:hover{
+    width: 505px;
+    border-color: var(--cor-hover-border);
+}
+
+::placeholder{
+    opacity: 70%;
+    padding-left: 4%;
+}
+
+button{
+    width: 110px;
+    color: white;
+    background-color: rgb(66, 66, 145);
+    border-radius: 20px;
+    border-style: none;
+}
+
+button:hover{
+    border-style: solid;
+    border-color: var(--cor-hover-border);
+}
+
+#task-form{
+    margin: -28px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--cor-bg-divs);
+}
+
+#btn:active{
+    background-color: rgb(118, 105, 129);
+    color: aqua;
+    border-style: none;
+}
+
+@media (max-width: 411px){
+    button{
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+    }
+
+    input{
+        width: 310px;
+    }
+
+    .add{
+       visibility: hidden; 
+    }
+
+    .add-mais-icon{
+        visibility: visible;
+    }
+}
+

@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    background-color: rgb(32, 32, 65);
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
+    margin-top: 4%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    width: 300px;
+    height: 300px;
+}
+button:hover{
+    color: rgb(255, 0, 221);
+}
+
+.rodape{
+    margin-top: 30%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+    text-align: center;
+    background-color: rgb(81, 81, 112);
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: rgb(163, 163, 231);
+}
