@@ -71,6 +71,11 @@ button:hover{
     border-style: none;
 }
 
+#tarefas{
+    margin-left: -30vh;
+    margin-top: 2%;
+}
+
 @media (max-width: 411px){
     button{
         border-radius: 50px;

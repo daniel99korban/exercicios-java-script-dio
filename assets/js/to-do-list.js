@@ -1,8 +1,8 @@
+const $button = document.querySelector('button');
+const $where = document.getElementById('tarefas');
+const content = document.getElementById('task-input');
 
-var addItem = document.getElementById('task-form');
-var content = document.getElementsById('task-input');
-
-function addLista(){
-    var corFundoForm = document.getElementById("btn");
-    //corFundoForm.style.background = 'red'
-}
+$button.addEventListener('click', ()=>{
+    // usar um array
+    $where.innerHTML += `<input type="checkbox" id="chec"> ${content.value}`
+})

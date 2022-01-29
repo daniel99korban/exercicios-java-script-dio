@@ -1,0 +1,27 @@
+{
+  "name": "teste-json",
+  "version": "1.0.0",
+  "description": "usando o comando npm init e testando npmsscript do vs code e npm run start",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel99korban/exercicios-java-script-dio.git"
+  },
+  "keywords": [
+    "node",
+    "json",
+    "javaScritp",
+    "libvu",
+    "v8"
+  ],
+  "author": "Daniel Korban",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniel99korban/exercicios-java-script-dio/issues"
+  },
+  "homepage": "https://github.com/daniel99korban/exercicios-java-script-dio#readme"
+}

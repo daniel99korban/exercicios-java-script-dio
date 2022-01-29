@@ -1,5 +1,7 @@
 var blocos = document.getElementsByClassName('bloco');
 
+fun
+
 for(let i=0; i<blocos.length; i++){// ouvindo eventos de mouse
     blocos[i].addEventListener("mouseover", mudarCorFundo);
   blocos[i].addEventListener("mouseout", restaurar);
